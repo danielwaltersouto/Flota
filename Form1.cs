@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Flota
 {
-    public partial class Form1 : Form
+    public partial class FLOTA : Form
     {
-        public Form1()
+        public FLOTA()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
