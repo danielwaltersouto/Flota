@@ -20,11 +20,11 @@ namespace Flota
             this.Color = color;
         }
 
-        public virtual string MostrarCaracteristicas(String datosExtra)
+        public virtual string MostrarCaracteristicas()
 
         {
            string mostrar;
-           return mostrar= (Marca + " " + Modelo + " de color " + Color + " " + "\n" + datosExtra + "\n");
+           return mostrar= (Marca + " " + Modelo + " de color " + Color + "\n");
 
         }
 
