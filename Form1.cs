@@ -30,12 +30,18 @@ namespace Flota
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Auto A = new Auto(tbMarca.Text, tbModelo.Text, tbColor.Text);
+
+            VehiculoFactory factory = new VehiculoFactory();
+            factory.GetVehiculo(tbMarca.Text, tbModelo.Text, tbColor.Text);
+            
+           
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+
 
         }
     }

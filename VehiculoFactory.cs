@@ -10,11 +10,16 @@ namespace Flota
     {
 
 
-        private static Dictionary<string,Vehiculo> pool = new Dictionary<string, Vehiculo>();
+        private static Dictionary<string, Vehiculo> pool = new Dictionary<string, Vehiculo>();
+        
 
-        public static Vehiculo vehiculo(string marca, string modelo, string color)
+        public Vehiculo  GetVehiculo (string marca, string modelo, string color)
         {
-         Vehiculo v = null;
+        
+            
+            
+            
+            Vehiculo v = null;
 
           
             if (pool.ContainsKey(marca + " " + modelo + " " + color))
